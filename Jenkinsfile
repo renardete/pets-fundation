@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo "My first Pipeline"'
+                sh 'java --version'
             }
         }
     }
